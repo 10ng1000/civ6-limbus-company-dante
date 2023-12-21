@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LimbusCompanyDante_Text_en -->
+<!-- Author: l -->
+<!-- DateCreated: 5/12/2023 7:58:57 PM -->
+<GameData>
+	<BaseGameText>
+		<Row Tag = "LOC_CIVILIZATION_LIMBUS_NAME" >
+			<Text>Limbus Company</Text>
+		</Row>
+		<Row Tag = "LOC_CIVILIZATION_LIMBUS_DESCRIPTION" >
+			<Text>Limbus Company</Text>
+		</Row>
+		<Row Tag = "LOC_LOADING_INFO_LEADER_DANTE" >
+			<Text>
+				Here vigour fail’d the tow’ring fantasy: But yet the will roll’d onward, like a wheel.In even motion, by the Love impell’d, That moves the sun in heav’n and all the stars.
+			</Text>
+		</Row>
+		<Row Tag = "LOC_CIVILIZATION_LIMBUS_ADJECTIVE" >
+			<Text>Dante's</Text>
+		</Row>
+		<Row Tag = "LOC_LEADER_DANTE_NAME" >
+			<Text>Dante</Text>
+		</Row>
+		<Row Tag = "LOC_LEADER_DANTE_QUOTE" >
+			<Text>&lt;......&gt; </Text>
+		</Row>
+		<Row Tag = "LOC_TRAIT_CIVILIZATION_INFERNO_NAME" >
+			<Text>Inferno</Text>
+		</Row>
+		<Row Tag = "LOC_TRAIT_LEADER_DIVINE_COMEDY_NAME" >
+			<Text>The Divine Comedy</Text>
+		</Row>
+		<Row Tag = "LOC_TRAIT_CIVILIZATION_INFERNO_DESCRIPTION" >
+			<Text>
+				Gain a sinner when unlocking a specific technology or civic. Sinners are combat units and each have special abilities and are able to improve Golden Boughs and repair buildings. Unlock the ability to see the resources of the The Golden Bough.Technologies or civic that unlock sinners are: Drama and Poetry, Stirrup, Feudalism, Humanism, Military Science, Steam Power, Urbanization, Replaceable Parts, Flight, Ideology, and Cultural Heritage.
+			</Text>
+		</Row>
+		<Row Tag = "LOC_TRAIT_LEADER_DIVINE_COMEDY_DESCRIPTION" >
+			<Text>After death, the sinner returns to the center of the capital with an empty health </Text>
+		</Row>
+
+		<Row Tag = "LOC_TRAIT_CIVILIZATION_UNIT_MEPHISTO_NAME" >
+			<Text>Mephisto</Text>
+		</Row>
+		<Row Tag = "LOC_TRAIT_CIVILIZATION_UNIT_MEPHISTO_DESCRIPTION" >
+			<Text>Limbus Company Renaissance era featured heavy cavalry unit, unlocked through the Humanist Municipality. Requires a higher productivity cost. +5 [ICON_Strength] combat power when launching an attack against a stationed unit, restores 20 health when killing a unit. </Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_MEPHISTO_NAME" >
+			<Text>Mephisto</Text>
+		</Row>
+		<Row Tag = "LOC_ABILITY_MEPHISTO_NAME" >
+			<Text>Mephisto Special Ability</Text>
+	</Row>
+		<Row Tag = "LOC_ABILITY_MEPHISTO_DESCRIPTION" >
+			<Text>+5 [ICON_Strength] combat power when launching an attack against a stationed unit, restores 20 health when destroying a unit. </Text>
+	</Row>
+		<Row Tag = "LOC_UNIT_MEPHISTO_DESCRIPTION" >
+			<Text>Limbus Company renaissance era featured heavy cavalry unit, unlocked through the Humanist municipality. Requires a higher productivity cost. +5 [ICON_Strength] combat power when launching an attack against a stationed unit, restores 20 health when killing a unit. </Text>
+	</Row>
+		<Row Tag = "LOC_MODIFIER_ABILITY_MEPHISTO" >
+			<Text>+5 [ICON_Strength] combat power when launching attacks against stationed units. </Text>
+	</Row>
+		<Row Tag = "LOC_RESOURCE_GOLDEN_BOUGH_NAME" >
+			<Text>The Golden Bough</Text>
+	</Row>
+		<Row Tag = "LOC_IMPROVEMENT_ECHO_NAME" >
+			<Text>The Golden Bough Recovered</Text>
+	</Row>
+		<Row Tag = "LOC_IMPROVEMENT_ECHO_DESCRIPTION" >
+			<Text>Limbus Company featured improvement facility that can only be built on the The Golden Bough. </Text>
+		</Row>
+		<Row Tag = "LOC_TRAIT_IMPROVEMENT_ECHO_DESCRIPTION" >
+			<Text>
+				Limbus Company features The Golden Bough improvements, unlocked through Code of laws Civic, which can only be built on Golden Bough by Sinners. It will be enhanced as technology and Civic improve.
+			</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_OUTIS_NAME" >
+			<Text>Outis</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_OUTIS_DESCRIPTION" >
+			<Text>Sinner, a 10 melee attack scout unit, causes friendly units within 1 square to gain the effect: +3 [ICON_Strength] combat power when attacking wounded units. </Text>
+		</Row>
+		<Row Tag = "LOC_ABILITY_OUTIS_AOE_BUFF_NAME" >
+			<Text>Outis Ability</Text>
+		</Row>
+		<Row Tag = "LOC_ABILITY_OUTIS_ONE_AOE_BUFF_DESCRIPTION" >
+			<Text>Gives effect to friendly units within 1 frame: +3 [ICON_Strength] combat power when attacking wounded units. </Text>
+		</Row>
+		<Row Tag = "LOC_ABILITY_OUTIS_AOE_DESCRIPTION" >
+			<Text>Augmentation effect from Outis: +3 [ICON_Strength] combat power when attacking wounded units. </Text>
+		</Row>
+		<Row Tag = "LOC_MODIFIER_SINNER_ONE_AOE" >
+			<Text>MODIFER causes friendly units within 1 square to gain the effect: +3[ICON_Strength] combat power when attacking wounded units. </Text>
+		</Row>
+		<Row Tag = "LOC_MODIFIER_OUTIS_ATTACK_AOE" >
+			<Text>+3[ICON_Strength] combat power when attacking wounded units. </Text>
+		</Row>
+
+		<Row Tag = "LOC_UNIT_RYOSHU_NAME" >
+			<Text>RyoShu</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_RYOSHU_DESCRIPTION" >
+			<Text>Sinner, a melee unit with 35 melee attack power, gains +7 Great Artist Points when killing enemy units.</Text>
+		</Row>
+		<Row Tag = "LOC_ABILITY_RYOSHU_DESCRIPTION" >
+			<Text>Gain +7 Great Artist Points when killing enemy units</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_HONGLU_NAME" >
+			<Text>Hong Lu</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_HONGLU_DESCRIPTION" >
+			<Text>Sinner, a 45 melee attacking anti-cavalry unit, causes friendly units within 1 square to gain the effect: +10 recovery when stationed.</Text>
+		</Row>
+		<Row Tag = "LOC_ABILITY_HONGLU_DESCRIPTION" >
+			<Text>Causes friendly units within 1 square to gain the effect: +10 recovery when stationed.</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_DON_NAME" >
+			<Text>Don Quixote</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_DON_DESCRIPTION" >
+			<Text>Sinner, a 50 [ICON_Strength] combat heavy cavalry unit.</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_FAUST_NAME" >
+			<Text>Faust</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_FAUST_DESCRIPTION" >
+			<Text>Sinner, a 50 attack melee unit, unlocks Eureka for internal combustion engine technology and a random Renaissance technology.</Text>
+		</Row>
+		<Row Tag = "LOC_ABILITY_FAUST_DESCRIPTION" >
+			<Text>Unlocks Eureka for internal combustion engine technology and a random Renaissance technology.</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_HEATHCLIFF_NAME" >
+			<Text>Heathcliff</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_HEATHCLIFF_DESCRIPTION" >
+			<Text>Sinner, a 62 attack melee unit, gains +5 [ICON_Strength] combat power when it launches an attack.</Text>
+		</Row>
+		<Row Tag = "LOC_ABILITY_HEATHCLIFF_DESCRIPTION" >
+			<Text>Gains +5 [ICON_Strength] combat power when it launches an attack.</Text>
+		</Row>
+		<Row Tag = "LOC_MODIFIER_ABILITY_HEATHCLIFF" >
+			<Text>Gains +5 [ICON_Strength] combat power when it launches an attack.</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_RODION_NAME" >
+			<Text>Rodion</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_RODION_DESCRIPTION" >
+			<Text>Sinner, 62 attack melee unit, looting only consumes one point of movement.</Text>
+		</Row>
+		<Row Tag = "LOC_ABILITY_RODION_DESCRIPTION" >
+			<Text>looting only consumes one point of movement.</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_ISHMAEL_NAME" >
+			<Text>ISHMAEL</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_ISHMAEL_DESCRIPTION" >
+			<Text>Sinner, 50 melee attack power, 60 long-range attack power of long-range units, +10 [ICON_Strength] combat power to fight with naval units.</Text>
+		</Row>
+		<Row Tag = "LOC_ABILITY_ISHMAEL_DESCRIPTION" >
+			<Text>+10 [ICON_Strength] combat power to fight with naval units.</Text>
+		</Row>
+		<Row Tag = "LOC_MODIFIER_ABILITY_ISHMAEL" >
+			<Text>+10 [ICON_Strength] combat power to fight with naval units.</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_GREGOR_NAME" >
+			<Text>GREGOR</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_GREGOR_DESCRIPTION" >
+			<Text>Sinner, a 72 attack melee unit that returns life points at the end of each turn.</Text>
+		</Row>
+		<Row Tag = "LOC_ABILITY_GREGOR_DESCRIPTION" >
+			<Text>Returns life points at the end of each turn.</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_SINCLAIR_NAME" >
+			<Text>Sinlair</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_SINCLAIR_DESCRIPTION" >
+			<Text>Sinner, a 72 attack anti-cavalry unit that is not affected by combat mitigation when wounded.</Text>
+		</Row>
+		<Row Tag = "LOC_ABILITY_SINCLAIR_DESCRIPTION" >
+			<Text>Not affected by combat impairment when wounded.</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_MEURSAULT_NAME" >
+			<Text>Meursault</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_MEURSAULT_DESCRIPTION" >
+			<Text>Sinner, a melee unit with 80 attack power.</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_YISANG_NAME" >
+			<Text>Yi Sang</Text>
+		</Row>
+		<Row Tag = "LOC_UNIT_YISANG_DESCRIPTION" >
+			<Text>Sinner, a melee unit with 85 attack power.</Text>
+		</Row>
+
+		<Row Tag = "LOC_CITY_NAME_B" >
+			<Text>Division B</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_C" >
+			<Text>Division C</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_D" >
+			<Text>Division D</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_E" >
+			<Text>Division E</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_F" >
+			<Text>Division F</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_G" >
+			<Text>Division G</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_H" >
+			<Text>Division H</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_I" >
+			<Text>Division I</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_J" >
+			<Text>Division J</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_K" >
+			<Text>Division K</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_L" >
+			<Text>Division L</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_M" >
+			<Text>Division M</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_N" >
+			<Text>Division N</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_O" >
+			<Text>Division O</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_P" >
+			<Text>Division P</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_Q" >
+			<Text>Division Q</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_R" >
+			<Text>Division R</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_S" >
+			<Text>Division S</Text>
+		</Row>
+		<Row Tag = "LOC_CITY_NAME_T" >
+			<Text>Division T</Text>
+		</Row>
+
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_DANTE_ANY">
+			<Text> &lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_DANTE_ANY">
+			<Text>&lt;......&gt; </Text>
+		</Replace>
+	</BaseGameText>
+</GameData>

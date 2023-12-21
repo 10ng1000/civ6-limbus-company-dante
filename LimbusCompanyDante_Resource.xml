@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LimbusCompanyDante_Resource -->
+<!-- Author: l -->
+<!-- DateCreated: 5/8/2023 6:13:39 PM -->
+<GameData>
+	<Types>
+		<Row Type="RESOURCE_GOLDEN_BOUGH" Kind="KIND_RESOURCE"/>
+	</Types>
+	<TypeTags>
+		<Row Type="RESOURCE_GOLDEN_BOUGH" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_GOLDEN_BOUGH" Tag="CLASS_ORAL_TRADITION"/>
+	</TypeTags>
+	<Resources>
+		<Row ResourceType="RESOURCE_GOLDEN_BOUGH" Name="LOC_RESOURCE_GOLDEN_BOUGH_NAME"
+			 ResourceClassType="RESOURCECLASS_BONUS" Frequency="12"/>
+	</Resources>
+	<Resource_YieldChanges>
+		<Row ResourceType="RESOURCE_GOLDEN_BOUGH" YieldType="YIELD_FAITH" YieldChange="1"/>
+	</Resource_YieldChanges>
+	<Resource_Conditions>
+		<Row ResourceType="RESOURCE_GOLDEN_BOUGH" UnlocksFromEffect="true"/>
+	</Resource_Conditions>
+	<Resource_ValidTerrains>
+		<Row ResourceType="RESOURCE_GOLDEN_BOUGH" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_GOLDEN_BOUGH" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_GOLDEN_BOUGH" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_GOLDEN_BOUGH" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_GOLDEN_BOUGH" TerrainType="TERRAIN_PLAINS"/>
+		<Row ResourceType="RESOURCE_GOLDEN_BOUGH" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_GOLDEN_BOUGH" TerrainType="TERRAIN_SNOW"/>
+		<Row ResourceType="RESOURCE_GOLDEN_BOUGH" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ResourceType="RESOURCE_GOLDEN_BOUGH" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ResourceType="RESOURCE_GOLDEN_BOUGH" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+	</Resource_ValidTerrains>
+</GameData>

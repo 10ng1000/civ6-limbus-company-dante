@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="DanteDDS"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIMBUS128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIMBUS128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIMBUS200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIMBUS200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIMBUS256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIMBUS256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIMBUS30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIMBUS30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIMBUS32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIMBUS32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIMBUS36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIMBUS36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIMBUS44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIMBUS44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIMBUS45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIMBUS45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIMBUS48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIMBUS48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIMBUS50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIMBUS50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIMBUS64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIMBUS64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIMBUS80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIMBUS80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_LIMBUS22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_LIMBUS22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_DANTE128"/>
+			<m_ObjectName text="ICON_LEADER_DANTE128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_DANTE200"/>
+			<m_ObjectName text="ICON_LEADER_DANTE200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_DANTE22"/>
+			<m_ObjectName text="ICON_LEADER_DANTE22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_DANTE256"/>
+			<m_ObjectName text="ICON_LEADER_DANTE256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_DANTE30"/>
+			<m_ObjectName text="ICON_LEADER_DANTE30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_DANTE32"/>
+			<m_ObjectName text="ICON_LEADER_DANTE32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_DANTE36"/>
+			<m_ObjectName text="ICON_LEADER_DANTE36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_DANTE44"/>
+			<m_ObjectName text="ICON_LEADER_DANTE44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_DANTE45"/>
+			<m_ObjectName text="ICON_LEADER_DANTE45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_DANTE48"/>
+			<m_ObjectName text="ICON_LEADER_DANTE48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_DANTE50"/>
+			<m_ObjectName text="ICON_LEADER_DANTE50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_DANTE55"/>
+			<m_ObjectName text="ICON_LEADER_DANTE55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_DANTE64"/>
+			<m_ObjectName text="ICON_LEADER_DANTE64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_DANTE80"/>
+			<m_ObjectName text="ICON_LEADER_DANTE80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_DANTE_BACKGROUND"/>
+			<m_ObjectName text="IMG_DANTE_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LEADER_DANTE_SELECTION"/>
+			<m_ObjectName text="IMG_LEADER_DANTE_SELECTION"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMG_LIMBUS_LOADING"/>
+			<m_ObjectName text="IMG_LIMBUS_LOADING"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_ECHO128"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_ECHO128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_ECHO256"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_ECHO256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_ECHO32"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_ECHO32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_ECHO38"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_ECHO38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_ECHO50"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_ECHO50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_ECHO80"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_ECHO80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOLDEN_BOUGH256"/>
+			<m_ObjectName text="ICON_GOLDEN_BOUGH256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOLDEN_BOUGH38"/>
+			<m_ObjectName text="ICON_GOLDEN_BOUGH38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOLDEN_BOUGH50"/>
+			<m_ObjectName text="ICON_GOLDEN_BOUGH50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOLDEN_BOUGH64"/>
+			<m_ObjectName text="ICON_GOLDEN_BOUGH64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_OUTIS22"/>
+			<m_ObjectName text="ICON_UNIT_OUTIS22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_OUTIS256"/>
+			<m_ObjectName text="ICON_UNIT_OUTIS256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_OUTIS32"/>
+			<m_ObjectName text="ICON_UNIT_OUTIS32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_OUTIS38"/>
+			<m_ObjectName text="ICON_UNIT_OUTIS38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_OUTIS50"/>
+			<m_ObjectName text="ICON_UNIT_OUTIS50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_OUTIS80"/>
+			<m_ObjectName text="ICON_UNIT_OUTIS80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_FAUST22"/>
+			<m_ObjectName text="ICON_UNIT_FAUST22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_FAUST256"/>
+			<m_ObjectName text="ICON_UNIT_FAUST256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_FAUST32"/>
+			<m_ObjectName text="ICON_UNIT_FAUST32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_FAUST38"/>
+			<m_ObjectName text="ICON_UNIT_FAUST38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_FAUST50"/>
+			<m_ObjectName text="ICON_UNIT_FAUST50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_FAUST80"/>
+			<m_ObjectName text="ICON_UNIT_FAUST80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HONGLU22"/>
+			<m_ObjectName text="ICON_UNIT_HONGLU22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HONGLU256"/>
+			<m_ObjectName text="ICON_UNIT_HONGLU256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HONGLU32"/>
+			<m_ObjectName text="ICON_UNIT_HONGLU32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HONGLU38"/>
+			<m_ObjectName text="ICON_UNIT_HONGLU38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HONGLU50"/>
+			<m_ObjectName text="ICON_UNIT_HONGLU50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HONGLU80"/>
+			<m_ObjectName text="ICON_UNIT_HONGLU80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_DON22"/>
+			<m_ObjectName text="ICON_UNIT_DON22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_DON256"/>
+			<m_ObjectName text="ICON_UNIT_DON256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_DON32"/>
+			<m_ObjectName text="ICON_UNIT_DON32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_DON38"/>
+			<m_ObjectName text="ICON_UNIT_DON38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_DON50"/>
+			<m_ObjectName text="ICON_UNIT_DON50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_DON80"/>
+			<m_ObjectName text="ICON_UNIT_DON80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ISHMAEL22"/>
+			<m_ObjectName text="ICON_UNIT_ISHMAEL22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ISHMAEL256"/>
+			<m_ObjectName text="ICON_UNIT_ISHMAEL256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ISHMAEL32"/>
+			<m_ObjectName text="ICON_UNIT_ISHMAEL32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ISHMAEL38"/>
+			<m_ObjectName text="ICON_UNIT_ISHMAEL38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ISHMAEL50"/>
+			<m_ObjectName text="ICON_UNIT_ISHMAEL50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ISHMAEL80"/>
+			<m_ObjectName text="ICON_UNIT_ISHMAEL80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RYOSHU22"/>
+			<m_ObjectName text="ICON_UNIT_RYOSHU22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RYOSHU256"/>
+			<m_ObjectName text="ICON_UNIT_RYOSHU256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RYOSHU32"/>
+			<m_ObjectName text="ICON_UNIT_RYOSHU32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RYOSHU38"/>
+			<m_ObjectName text="ICON_UNIT_RYOSHU38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RYOSHU50"/>
+			<m_ObjectName text="ICON_UNIT_RYOSHU50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RYOSHU80"/>
+			<m_ObjectName text="ICON_UNIT_RYOSHU80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HEATHCLIFF22"/>
+			<m_ObjectName text="ICON_UNIT_HEATHCLIFF22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HEATHCLIFF256"/>
+			<m_ObjectName text="ICON_UNIT_HEATHCLIFF256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HEATHCLIFF32"/>
+			<m_ObjectName text="ICON_UNIT_HEATHCLIFF32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HEATHCLIFF38"/>
+			<m_ObjectName text="ICON_UNIT_HEATHCLIFF38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HEATHCLIFF50"/>
+			<m_ObjectName text="ICON_UNIT_HEATHCLIFF50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HEATHCLIFF80"/>
+			<m_ObjectName text="ICON_UNIT_HEATHCLIFF80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RODION22"/>
+			<m_ObjectName text="ICON_UNIT_RODION22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RODION256"/>
+			<m_ObjectName text="ICON_UNIT_RODION256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RODION32"/>
+			<m_ObjectName text="ICON_UNIT_RODION32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RODION38"/>
+			<m_ObjectName text="ICON_UNIT_RODION38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RODION50"/>
+			<m_ObjectName text="ICON_UNIT_RODION50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RODION80"/>
+			<m_ObjectName text="ICON_UNIT_RODION80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SINCLAIR22"/>
+			<m_ObjectName text="ICON_UNIT_SINCLAIR22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SINCLAIR256"/>
+			<m_ObjectName text="ICON_UNIT_SINCLAIR256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SINCLAIR32"/>
+			<m_ObjectName text="ICON_UNIT_SINCLAIR32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SINCLAIR38"/>
+			<m_ObjectName text="ICON_UNIT_SINCLAIR38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SINCLAIR50"/>
+			<m_ObjectName text="ICON_UNIT_SINCLAIR50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SINCLAIR80"/>
+			<m_ObjectName text="ICON_UNIT_SINCLAIR80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YISANG22"/>
+			<m_ObjectName text="ICON_UNIT_YISANG22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YISANG256"/>
+			<m_ObjectName text="ICON_UNIT_YISANG256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YISANG32"/>
+			<m_ObjectName text="ICON_UNIT_YISANG32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YISANG38"/>
+			<m_ObjectName text="ICON_UNIT_YISANG38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YISANG50"/>
+			<m_ObjectName text="ICON_UNIT_YISANG50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YISANG80"/>
+			<m_ObjectName text="ICON_UNIT_YISANG80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEURSAULT22"/>
+			<m_ObjectName text="ICON_UNIT_MEURSAULT22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEURSAULT256"/>
+			<m_ObjectName text="ICON_UNIT_MEURSAULT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEURSAULT32"/>
+			<m_ObjectName text="ICON_UNIT_MEURSAULT32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEURSAULT38"/>
+			<m_ObjectName text="ICON_UNIT_MEURSAULT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEURSAULT50"/>
+			<m_ObjectName text="ICON_UNIT_MEURSAULT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEURSAULT80"/>
+			<m_ObjectName text="ICON_UNIT_MEURSAULT80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREGOR22"/>
+			<m_ObjectName text="ICON_UNIT_GREGOR22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREGOR256"/>
+			<m_ObjectName text="ICON_UNIT_GREGOR256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREGOR32"/>
+			<m_ObjectName text="ICON_UNIT_GREGOR32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREGOR38"/>
+			<m_ObjectName text="ICON_UNIT_GREGOR38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREGOR50"/>
+			<m_ObjectName text="ICON_UNIT_GREGOR50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREGOR80"/>
+			<m_ObjectName text="ICON_UNIT_GREGOR80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RYOSHU_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_RYOSHU_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RYOSHU_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_RYOSHU_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RYOSHU_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_RYOSHU_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RYOSHU_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_RYOSHU_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RYOSHU_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_RYOSHU_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RYOSHU_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_RYOSHU_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_FAUST_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_FAUST_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_FAUST_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_FAUST_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_FAUST_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_FAUST_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_FAUST_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_FAUST_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_FAUST_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_FAUST_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_FAUST_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_FAUST_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HONGLU_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_HONGLU_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HONGLU_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_HONGLU_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HONGLU_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_HONGLU_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HONGLU_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_HONGLU_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HONGLU_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_HONGLU_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HONGLU_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_HONGLU_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ISHMAEL_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_ISHMAEL_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ISHMAEL_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_ISHMAEL_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ISHMAEL_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_ISHMAEL_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ISHMAEL_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_ISHMAEL_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ISHMAEL_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_ISHMAEL_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_ISHMAEL_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_ISHMAEL_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SINCLAIR_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_SINCLAIR_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SINCLAIR_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_SINCLAIR_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SINCLAIR_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_SINCLAIR_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SINCLAIR_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_SINCLAIR_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SINCLAIR_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_SINCLAIR_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_SINCLAIR_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_SINCLAIR_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEPHISTO_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_MEPHISTO_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEPHISTO_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_MEPHISTO_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEPHISTO_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_MEPHISTO_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEPHISTO_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_MEPHISTO_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEPHISTO_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_MEPHISTO_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEPHISTO_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_MEPHISTO_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEPHISTO22"/>
+			<m_ObjectName text="ICON_UNIT_MEPHISTO22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEPHISTO256"/>
+			<m_ObjectName text="ICON_UNIT_MEPHISTO256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEPHISTO32"/>
+			<m_ObjectName text="ICON_UNIT_MEPHISTO32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEPHISTO38"/>
+			<m_ObjectName text="ICON_UNIT_MEPHISTO38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEPHISTO50"/>
+			<m_ObjectName text="ICON_UNIT_MEPHISTO50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEPHISTO80"/>
+			<m_ObjectName text="ICON_UNIT_MEPHISTO80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEURSAULT_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_MEURSAULT_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEURSAULT_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_MEURSAULT_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEURSAULT_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_MEURSAULT_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEURSAULT_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_MEURSAULT_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEURSAULT_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_MEURSAULT_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_MEURSAULT_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_MEURSAULT_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREGOR_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_GREGOR_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREGOR_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_GREGOR_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREGOR_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_GREGOR_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREGOR_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_GREGOR_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREGOR_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_GREGOR_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_GREGOR_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_GREGOR_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HEATHCLIFF_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_HEATHCLIFF_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HEATHCLIFF_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_HEATHCLIFF_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HEATHCLIFF_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_HEATHCLIFF_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HEATHCLIFF_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_HEATHCLIFF_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HEATHCLIFF_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_HEATHCLIFF_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_HEATHCLIFF_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_HEATHCLIFF_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_DON_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_DON_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_DON_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_DON_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_DON_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_DON_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_DON_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_DON_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_DON_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_DON_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_DON_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_DON_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_OUTIS_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_OUTIS_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_OUTIS_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_OUTIS_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_OUTIS_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_OUTIS_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_OUTIS_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_OUTIS_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_OUTIS_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_OUTIS_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_OUTIS_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_OUTIS_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RODION_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_RODION_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RODION_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_RODION_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RODION_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_RODION_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RODION_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_RODION_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RODION_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_RODION_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_RODION_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_RODION_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YISANG_PORTRAIT200"/>
+			<m_ObjectName text="ICON_UNIT_YISANG_PORTRAIT200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YISANG_PORTRAIT256"/>
+			<m_ObjectName text="ICON_UNIT_YISANG_PORTRAIT256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YISANG_PORTRAIT38"/>
+			<m_ObjectName text="ICON_UNIT_YISANG_PORTRAIT38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YISANG_PORTRAIT50"/>
+			<m_ObjectName text="ICON_UNIT_YISANG_PORTRAIT50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YISANG_PORTRAIT70"/>
+			<m_ObjectName text="ICON_UNIT_YISANG_PORTRAIT70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_YISANG_PORTRAIT95"/>
+			<m_ObjectName text="ICON_UNIT_YISANG_PORTRAIT95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_ECHO_PORTRAIT"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_ECHO_PORTRAIT"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

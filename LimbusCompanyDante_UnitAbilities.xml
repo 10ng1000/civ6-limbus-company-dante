@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LimbusCompanyDante_UnitAbilities -->
+<!-- Author: l -->
+<!-- DateCreated: 5/9/2023 8:28:03 PM -->
+<GameData>
+	<Types>
+		<Row Type="ABILITY_MEPHISTO" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_OUTIS_ONE_AOE_BUFF" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_OUTIS_AOE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_RYOSHU" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HONGLU" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_FAUST" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HEATHCLIFF" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_RODION" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ISHMAEL" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GREGOR" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SINCLAIR" Kind="KIND_ABILITY"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_SINNER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_MEPHISTO" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_OUTIS" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_RYOSHU" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HONGLU" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_FAUST" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HEATHCLIFF" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_RODION" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_ISHMAEL" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_GREGOR" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SINCLAIR" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_MEPHISTO" Name="LOC_ABILITY_MEPHISTO_NAME" Description="LOC_ABILITY_MEPHISTO_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_OUTIS_AOE" Name="LOC_ABILITY_OUTIS_AOE_NAME" Description="LOC_ABILITY_OUTIS_AOE_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_OUTIS_ONE_AOE_BUFF" Name="LOC_ABILITY_OUTIS_ONE_AOE_BUFF_NAME" Description="LOC_ABILITY_OUTIS_ONE_AOE_BUFF_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_RYOSHU" Name="LOC_ABILITY_RYOSHU_NAME" Description="LOC_ABILITY_RYOSHU_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_FAUST" Name="LOC_ABILITY_FAUST_NAME" Description="LOC_ABILITY_FAUST_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HONGLU" Name="LOC_ABILITY_HONGLU_NAME" Description="LOC_ABILITY_HONGLU_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HEATHCLIFF" Name="LOC_ABILITY_HEATHCLIFF_NAME" Description="LOC_ABILITY_HEATHCLIFF_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_RODION" Name="LOC_ABILITY_RODION_NAME" Description="LOC_ABILITY_RODION_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_ISHMAEL" Name="LOC_ABILITY_ISHMAEL_NAME" Description="LOC_ABILITY_ISHMAEL_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GREGOR" Name="LOC_ABILITY_GREGOR_NAME" Description="LOC_ABILITY_GREGOR_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SINCLAIR" Name="LOC_ABILITY_SINCLAIR_NAME" Description="LOC_ABILITY_SINCLAIR_DESCRIPTION"/>
+	</UnitAbilities>
+	<TypeTags>
+		<Row Type="UNIT_DON" Tag="CLASS_SINNER"/>
+		<Row Type="UNIT_MEURSAULT" Tag="CLASS_SINNER"/>
+		<Row Type="UNIT_YISANG" Tag="CLASS_SINNER"/>
+		<Row Type="UNIT_MEPHISTO" Tag="CLASS_MEPHISTO"/>
+		<Row Type="ABILITY_MEPHISTO" Tag="CLASS_MEPHISTO"/>
+		<Row Type="UNIT_OUTIS" Tag="CLASS_OUTIS"/>
+		<Row Type="UNIT_OUTIS" Tag="CLASS_SINNER"/>
+		<Row Type="UNIT_RYOSHU" Tag="CLASS_RYOSHU"/>
+		<Row Type="UNIT_RYOSHU" Tag="CLASS_SINNER"/>
+		<Row Type="ABILITY_RYOSHU" Tag="CLASS_RYOSHU"/>
+		<Row Type="UNIT_HONGLU" Tag="CLASS_HONGLU"/>
+		<Row Type="ABILITY_HONGLU" Tag="CLASS_HONGLU"/>
+		<Row Type="UNIT_HONGLU" Tag="CLASS_SINNER"/>
+		<Row Type="UNIT_FAUST" Tag="CLASS_FAUST"/>
+		<Row Type="UNIT_FAUST" Tag="CLASS_SINNER"/>
+		<Row Type="ABILITY_FAUST" Tag="CLASS_FAUST"/>
+		<Row Type="UNIT_HEATHCLIFF" Tag="CLASS_HEATHCLIFF"/>
+		<Row Type="UNIT_HEATHCLIFF" Tag="CLASS_SINNER"/>
+		<Row Type="ABILITY_HEATHCLIFF" Tag="CLASS_HEATHCLIFF"/>
+		<Row Type="UNIT_RODION" Tag="CLASS_RODION"/>
+		<Row Type="UNIT_RODION" Tag="CLASS_SINNER"/>
+		<Row Type="ABILITY_RODION" Tag="CLASS_RODION"/>
+		<Row Type="UNIT_ISHMAEL" Tag="CLASS_ISHMAEL"/>
+		<Row Type="UNIT_ISHMAEL" Tag="CLASS_SINNER"/>
+		<Row Type="ABILITY_ISHMAEL" Tag="CLASS_ISHMAEL"/>
+		<Row Type="UNIT_GREGOR" Tag="CLASS_GREGOR"/>
+		<Row Type="UNIT_GREGOR" Tag="CLASS_SINNER"/>
+		<Row Type="ABILITY_GREGOR" Tag="CLASS_GREGOR"/>
+		<Row Type="UNIT_SINCLAIR" Tag="CLASS_SINCLAIR"/>
+		<Row Type="UNIT_SINCLAIR" Tag="CLASS_SINNER"/>
+		<Row Type="ABILITY_SINCLAIR" Tag="CLASS_SINCLAIR"/>
+		<Row Type="ABILITY_OUTIS_ONE_AOE_BUFF" Tag="CLASS_OUTIS"/>
+		<Row Type="ABILITY_OUTIS_AOE" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_OUTIS_AOE" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_OUTIS_AOE" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_OUTIS_AOE" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_OUTIS_AOE" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_OUTIS_AOE" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_OUTIS_AOE" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_OUTIS_AOE" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_OUTIS_AOE" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_OUTIS_AOE" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_OUTIS_AOE" Tag="CLASS_WARRIOR_MONK"/>
+	</TypeTags>
+	<!--OUTIS-->
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_OUTIS_ONE_AOE_BUFF</UnitAbilityType>
+			<ModifierId>MODIFIER_SINNER_ONE_AOE</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_SINNER_ONE_AOE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>MODIFIER_SINNER_ONE_AOE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_SINNER_ONE_AOE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_OUTIS_AOE</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_SINNER_ONE_AOE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_SINNER_ONE_AOE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_MODIFIER_SINNER_ONE_AOE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_MODIFIER_SINNER_ONE_AOE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_MODIFIER_SINNER_ONE_AOE</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQ_MODIFIER_SINNER_ONE_AOE</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+	</RequirementArguments>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_OUTIS_AOE</UnitAbilityType>
+			<ModifierId>MODIFIER_OUTIS_ATTACK_AOE</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_OUTIS_ATTACK_AOE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>MODIFIER_OUTIS_ATTACK_AOE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_OUTIS_ATTACK_AOE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_OUTIS_ATTACK_AOE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_OUTIS_ATTACK_AOE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_MODIFIER_OUTIS_ATTACK_AOE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_MODIFIER_OUTIS_ATTACK_AOE</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_IS_WOUNDED</RequirementType>
+		</Row>
+	</Requirements>
+
+	
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_RYOSHU</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_RYOSHU</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_RYOSHU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_RYOSHU</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_RYOSHU</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+	</ModifierArguments>
+
+	
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_FAUST</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_FAUST</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_FAUST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_FAUST</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_COMBUSTION</Value>
+		</Row>
+	</ModifierArguments>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_FAUST</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_FAUST_ERA_RENAISSANCE</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_FAUST_ERA_RENAISSANCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_FAUST_ERA_RENAISSANCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_FAUST_ERA_RENAISSANCE</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_RENAISSANCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_FAUST_ERA_RENAISSANCE</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_RENAISSANCE</Value>
+		</Row>
+	</ModifierArguments>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_HEATHCLIFF</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_HEATHCLIFF</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_HEATHCLIFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>MODIFIER_ABILITY_HEATHCLIFF_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_HEATHCLIFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_ABILITY_HEATHCLIFF_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_ABILITY_HEATHCLIFF_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_MODIFIER_ABILITY_HEATHCLIFF</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_MODIFIER_ABILITY_HEATHCLIFF</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_IS_ATTACKING</RequirementType>
+		</Row>
+	</Requirements>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_ISHMAEL</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_ISHMAEL</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_ISHMAEL</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>MODIFIER_ABILITY_ISHMAEL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_ISHMAEL</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_ABILITY_ISHMAEL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_ABILITY_ISHMAEL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_MODIFIER_ABILITY_ISHMAEL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_MODIFIER_ABILITY_ISHMAEL</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_UNIT_DOMAIN_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_MODIFIER_ABILITY_ISHMAEL</RequirementId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_SEA</Value>
+		</Row>
+	</RequirementArguments>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_GREGOR</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_GREGOR</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_GREGOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION</ModifierType>
+		</Row>
+	</Modifiers>
+	
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_RODION</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_RODION</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_RODION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ADVANCED_PILLAGING</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_RODION</ModifierId>
+			<Name>UseAdvancedPillaging</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_SINCLAIR</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_SINCLAIR</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_SINCLAIR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_NO_REDUCTION_DAMAGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_SINCLAIR</ModifierId>
+			<Name>NoReduction</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_HONGLU</UnitAbilityType>
+			<ModifierId>MODIFIER_ABILITY_HONGLU</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_HONGLU</ModifierId>
+			<ModifierType>MODIFIER_ALL_UNITS_ADJUST_HEAL_PER_TURN</ModifierType>
+			<OwnerRequirementSetId>MODIFIER_ABILITY_HONGLU_REQUIREMENTS</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_HONGLU</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_ABILITY_HONGLU</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_ABILITY_HONGLU_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_ABILITY_HONGLU_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_MODIFIER_ABILITY_HONGLU</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_MODIFIER_ABILITY_HONGLU</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_MODIFIER_ABILITY_HONGLU</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQ_MODIFIER_ABILITY_HONGLU</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+	</RequirementArguments>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_MEPHISTO</UnitAbilityType>
+			<ModifierId>MODIFIER_MEPHISTO_ATTACK</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_MEPHISTO_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>CHARGE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_MEPHISTO_ATTACK</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_MEPHISTO</UnitAbilityType>
+			<ModifierId>MODIFIER_MEPHISTO_KILL_HEAL</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_MEPHISTO_KILL_HEAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_HEAL_FROM_COMBAT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_MEPHISTO_KILL_HEAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<ModifierStrings>
+		<Row ModifierId="MODIFIER_SINNER_ONE_AOE" Context="Summary" Text="LOC_MODIFIER_SINNER_ONE_AOE"/>
+		<Row ModifierId="MODIFIER_OUTIS_ATTACK_AOE" Context="Preview" Text="LOC_MODIFIER_OUTIS_ATTACK_AOE"/>
+		<Row ModifierId="MODIFIER_ABILITY_HEATHCLIFF" Context="Preview" Text="LOC_MODIFIER_ABILITY_HEATHCLIFF"/>
+		<Row ModifierId="MODIFIER_ABILITY_ISHMAEL" Context="Preview" Text="LOC_MODIFIER_ABILITY_ISHMAEL"/>
+		<Row ModifierId="MODIFIER_ABILITY_SINCLAIR" Context="Preview" Text="LOC_MODIFIER_ABILITY_SINCLAIR"/>
+		<Row ModifierId="MODIFIER_MEPHISTO_ATTACK" Context="Preview" Text="LOC_MODIFIER_ABILITY_MEPHISTO"/>
+	</ModifierStrings>
+
+
+
+</GameData>
