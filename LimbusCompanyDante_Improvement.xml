@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: l -->
+<!-- DateCreated: 5/3/2023 4:47:25 PM -->
+<GameData>
+
+	<Types>
+		<Row Type="IMPROVEMENT_ECHO" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_ECHO" Name="LOC_IMPROVEMENT_ECHO_NAME" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ECHO"
+			 Description="LOC_IMPROVEMENT_ECHO_DESCRIPTION" Icon="ICON_IMPROVEMENT_ECHO"
+			 PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" PrereqCivic="CIVIC_CODE_OF_LAWS"
+			 TilesRequired="2"/>
+	</Improvements>
+	<Improvement_ValidResources>
+		<Row ImprovementType="IMPROVEMENT_ECHO" ResourceType="RESOURCE_GOLDEN_BOUGH"/>
+	</Improvement_ValidResources>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_ECHO" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_ECHO" YieldType="YIELD_FAITH" YieldChange="2"/>
+	</Improvement_YieldChanges>
+	<Improvement_BonusYieldChanges>
+		<Row Id="617" ImprovementType="IMPROVEMENT_ECHO" YieldType="YIELD_GOLD" BonusYieldChange="2" PrereqTech="TECH_STIRRUPS"/>
+		<Row Id="618" ImprovementType="IMPROVEMENT_ECHO" YieldType="YIELD_PRODUCTION" BonusYieldChange="2" PrereqTech="TECH_ROBOTICS"/>
+		<Row Id="619" ImprovementType="IMPROVEMENT_ECHO" YieldType="YIELD_FAITH" BonusYieldChange="2" PrereqTech="TECH_STIRRUPS"/>
+		<Row Id="620" ImprovementType="IMPROVEMENT_ECHO" YieldType="YIELD_CULTURE" BonusYieldChange="2" PrereqCivic="CIVIC_THE_ENLIGHTENMENT"/>
+		<Row Id="621" ImprovementType="IMPROVEMENT_ECHO" YieldType="YIELD_SCIENCE" BonusYieldChange="2" PrereqTech="TECH_REFINING"/>
+	</Improvement_BonusYieldChanges>
+</GameData>

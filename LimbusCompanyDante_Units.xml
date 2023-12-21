@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Almost all gameplay types should first be added to the types table. -->
+	<!-- This serves as a central way to reference any type -->
+	<Types>
+		<Row Type="UNIT_MEPHISTO" Kind="KIND_UNIT" />
+		<Row Type="UNIT_OUTIS" Kind="KIND_UNIT" />
+		<Row Type="UNIT_RYOSHU" Kind="KIND_UNIT" />
+		<Row Type="UNIT_HONGLU" Kind="KIND_UNIT" />
+		<Row Type="UNIT_DON" Kind="KIND_UNIT" />
+		<Row Type="UNIT_FAUST" Kind="KIND_UNIT" />
+		<Row Type="UNIT_HEATHCLIFF" Kind="KIND_UNIT" />
+		<Row Type="UNIT_RODION" Kind="KIND_UNIT" />
+		<Row Type="UNIT_ISHMAEL" Kind="KIND_UNIT" />
+		<Row Type="UNIT_MEURSAULT" Kind="KIND_UNIT" />
+		<Row Type="UNIT_SINCLAIR" Kind="KIND_UNIT" />
+		<Row Type="UNIT_GREGOR" Kind="KIND_UNIT" />
+		<Row Type="UNIT_YISANG" Kind="KIND_UNIT" />
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_MEPHISTO" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MEPHISTO" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_MEPHISTO" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_MEPHISTO" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<Row Type="UNIT_MEPHISTO" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_OUTIS" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_OUTIS" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_OUTIS"		Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_RYOSHU"		Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_RYOSHU"		Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_HONGLU"		Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_HONGLU"		Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_DON"		Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_DON"		Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_HEATHCLIFF"		Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_HEATHCLIFF"		Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_RODION"		Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_RODION"		Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_FAUST"		Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_FAUST"		Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_ISHMAEL"		Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_ISHMAEL"		Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_MEURSAULT"		Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_MEURSAULT"		Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_SINCLAIR"		Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_SINCLAIR"		Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_GREGOR"		Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_GREGOR"		Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_YISANG"		Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_YISANG"		Tag="CLASS_ALL_ERAS"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_MEPHISTO" Cost="340" Maintenance="5" BaseMoves="4" BaseSightRange="2" TraitType="TRAIT_CIVILIZATION_UNIT_MEPHISTO"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="61" StrategicResource="RESOURCE_IRON"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_MEPHISTO_NAME" Description="LOC_UNIT_MEPHISTO_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD" PrereqCivic="CIVIC_HUMANISM"/>
+		
+		<Row UnitType="UNIT_OUTIS" Cost="1" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true"
+			 Domain="DOMAIN_LAND" Combat="8" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RECON" 
+			 AdvisorType="ADVISOR_GENERIC" Name="LOC_UNIT_OUTIS_NAME" Description="LOC_UNIT_OUTIS_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"
+			  CanRetreatWhenCaptured="True"  CanTrain="False" />
+		
+		<Row UnitType="UNIT_RYOSHU" Cost="90" BaseMoves="2" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="35" 
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_RYOSHU_NAME" Description="LOC_UNIT_RYOSHU_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD"  
+			  CanRetreatWhenCaptured="True"  CanTrain="False" />
+		
+		<Row UnitType="UNIT_DON" Cost="180" BaseMoves="4" BaseSightRange="2" 
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="48"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_DON_NAME" Description="LOC_UNIT_DON_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD"  
+			  CanRetreatWhenCaptured="True"  CanTrain="False"/>
+
+		<Row UnitType="UNIT_HONGLU" Cost="200" BaseMoves="2" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="45" FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			 PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HONGLU_NAME" 
+			 Description="LOC_UNIT_HONGLU_DESCRIPTION" PurchaseYield="YIELD_GOLD" 
+			  CanRetreatWhenCaptured="True" CanTrain="False"/>
+		
+		<Row UnitType="UNIT_FAUST" Cost="90" BaseMoves="2" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="50"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE"
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_FAUST_NAME" Description="LOC_UNIT_FAUST_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD"  
+			  CanRetreatWhenCaptured="True" CanTrain="False" />
+		
+		<Row UnitType="UNIT_HEATHCLIFF" Cost="90" BaseMoves="2" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="62"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE"
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_HEATHCLIFF_NAME" Description="LOC_UNIT_HEATHCLIFF_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD"  
+			  CanRetreatWhenCaptured="True" CanTrain="False" />
+		
+		<Row UnitType="UNIT_RODION" Cost="90" BaseMoves="2" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="62"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE"
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_RODION_NAME" Description="LOC_UNIT_RODION_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD"  
+			  CanRetreatWhenCaptured="True" CanTrain="False" />
+
+		<Row UnitType="UNIT_ISHMAEL" Cost="540" BaseMoves="2" BaseSightRange="2"
+			 ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="50" RangedCombat="60" Range="2"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" 
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_ISHMAEL_NAME" Description="LOC_UNIT_ISHMAEL_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD" 
+			  CanRetreatWhenCaptured="True" CanTrain="False" />
+
+		<Row UnitType="UNIT_GREGOR" Cost="90" BaseMoves="2" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="72"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE"
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_GREGOR_NAME" Description="LOC_UNIT_GREGOR_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD"  
+			  CanRetreatWhenCaptured="True" CanTrain="False" />
+
+		<Row UnitType="UNIT_SINCLAIR" Cost="200" BaseMoves="2" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="72" FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			 PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_SINCLAIR_NAME"
+			 Description="LOC_UNIT_SINCLAIR_DESCRIPTION" PurchaseYield="YIELD_GOLD" 
+		     CanRetreatWhenCaptured="True" CanTrain="False"/>
+		
+		<Row UnitType="UNIT_MEURSAULT" Cost="90" BaseMoves="2" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="80"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE"
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_MEURSAULT_NAME" Description="LOC_UNIT_MEURSAULT_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD"  
+			  CanRetreatWhenCaptured="True" CanTrain="False" />
+		
+		<Row UnitType="UNIT_YISANG" Cost="90" BaseMoves="2" BaseSightRange="2"
+			 ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="85"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE"
+			 AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_YISANG_NAME" Description="LOC_UNIT_YISANG_DESCRIPTION"
+			 PurchaseYield="YIELD_GOLD"  
+			  CanRetreatWhenCaptured="True" CanTrain="False" />
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_MEPHISTO" UpgradeUnit="UNIT_TANK"/>
+	</UnitUpgrades>
+    <Units_XP2>
+		<Row UnitType="UNIT_MEPHISTO" ResourceCost="25"/>
+	</Units_XP2>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_ECHO" UnitType="UNIT_OUTIS" ConsumesCharge="true" ValidRepairOnly="true"/>
+		<Row ImprovementType="IMPROVEMENT_ECHO" UnitType="UNIT_RYOSHU" ConsumesCharge="true" ValidRepairOnly="true"/>
+		<Row ImprovementType="IMPROVEMENT_ECHO" UnitType="UNIT_HONGLU" ConsumesCharge="true" ValidRepairOnly="true"/>
+		<Row ImprovementType="IMPROVEMENT_ECHO" UnitType="UNIT_DON" ConsumesCharge="true" ValidRepairOnly="true"/>
+		<Row ImprovementType="IMPROVEMENT_ECHO" UnitType="UNIT_FAUST" ConsumesCharge="true" ValidRepairOnly="true"/>
+		<Row ImprovementType="IMPROVEMENT_ECHO" UnitType="UNIT_HEATHCLIFF" ConsumesCharge="true" ValidRepairOnly="true"/>
+		<Row ImprovementType="IMPROVEMENT_ECHO" UnitType="UNIT_RODION" ConsumesCharge="true" ValidRepairOnly="true"/>
+		<Row ImprovementType="IMPROVEMENT_ECHO" UnitType="UNIT_ISHMAEL" ConsumesCharge="true" ValidRepairOnly="true"/>
+		<Row ImprovementType="IMPROVEMENT_ECHO" UnitType="UNIT_MEURSAULT" ConsumesCharge="true" ValidRepairOnly="true"/>
+		<Row ImprovementType="IMPROVEMENT_ECHO" UnitType="UNIT_SINCLAIR" ConsumesCharge="true" ValidRepairOnly="true"/>
+		<Row ImprovementType="IMPROVEMENT_ECHO" UnitType="UNIT_GREGOR" ConsumesCharge="true" ValidRepairOnly="true"/>
+		<Row ImprovementType="IMPROVEMENT_ECHO" UnitType="UNIT_YISANG" ConsumesCharge="true" ValidRepairOnly="true"/>
+	</Improvement_ValidBuildUnits>
+	<UnitRetreats_XP1>
+		<Row UnitRetreatType="UNIT_RETREAT_OUTIS_TO_CAPITAL" UnitType="UNIT_OUTIS" BuildingType="BUILDING_PALACE"/>
+		<Row UnitRetreatType="UNIT_RETREAT_RYOSHU_TO_CAPITAL" UnitType="UNIT_RYOSHU" BuildingType="BUILDING_PALACE"/>
+		<Row UnitRetreatType="UNIT_RETREAT_HONGLU_TO_CAPITAL" UnitType="UNIT_HONGLU" BuildingType="BUILDING_PALACE"/>
+		<Row UnitRetreatType="UNIT_RETREAT_DON_TO_CAPITAL" UnitType="UNIT_DON" BuildingType="BUILDING_PALACE"/>
+		<Row UnitRetreatType="UNIT_RETREAT_FAUST_TO_CAPITAL" UnitType="UNIT_FAUST" BuildingType="BUILDING_PALACE"/>
+		<Row UnitRetreatType="UNIT_RETREAT_HEATHCLIFF_TO_CAPITAL" UnitType="UNIT_HEATHCLIFF" BuildingType="BUILDING_PALACE"/>
+		<Row UnitRetreatType="UNIT_RETREAT_RODION_TO_CAPITAL" UnitType="UNIT_RODION" BuildingType="BUILDING_PALACE"/>
+		<Row UnitRetreatType="UNIT_RETREAT_ISHMAEL_TO_CAPITAL" UnitType="UNIT_ISHMAEL" BuildingType="BUILDING_PALACE"/>
+		<Row UnitRetreatType="UNIT_RETREAT_GREGOR_TO_CAPITAL" UnitType="UNIT_GREGOR" BuildingType="BUILDING_PALACE"/>
+		<Row UnitRetreatType="UNIT_RETREAT_SINCLAIR_TO_CAPITAL" UnitType="UNIT_SINCLAIR" BuildingType="BUILDING_PALACE"/>
+		<Row UnitRetreatType="UNIT_RETREAT_MEURSAULT_TO_CAPITAL" UnitType="UNIT_MEURSAULT" BuildingType="BUILDING_PALACE"/>
+		<Row UnitRetreatType="UNIT_RETREAT_YISANG_TO_CAPITAL" UnitType="UNIT_YISANG" BuildingType="BUILDING_PALACE"/>
+	</UnitRetreats_XP1>
+			<!--MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MEPHISTO" Texture="ICON_UNIT_MEPHISTO_PORTRAIT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_OUTIS" Texture="ICON_UNIT_OUTIS_PORTRAIT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_RYOSHU" Texture="ICON_UNIT_RYOSHU_PORTRAIT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_DON" Texture="ICON_UNIT_DON_PORTRAIT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_FAUST" Texture="ICON_UNIT_FAUST_PORTRAIT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_HEATHCLIFF" Texture="ICON_UNIT_HEATHCLIFF_PORTRAIT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_RODION" Texture="ICON_UNIT_RODION_PORTRAIT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_ISHMAEL" Texture="ICON_UNIT_ISHMAEL_PORTRAIT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_GREGOR" Texture="ICON_UNIT_GREGOR_PORTRAIT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_SINCLAIR" Texture="ICON_UNIT_SINCLAIR_PORTRAIT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MEURSAULT" Texture="ICON_UNIT_MEURSAULT_PORTRAIT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_YISANG" Texture="ICON_UNIT_YISANG_PORTRAIT"/>
+	</MomentIllustrations-->
+</GameData>

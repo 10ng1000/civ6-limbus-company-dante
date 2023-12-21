@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>但丁领导的边狱巴士公司文明</Name>
+    <Guid>b8d1b94f-a23c-4eea-9f45-9c5ccfe3c4e9</Guid>
+    <ProjectGuid>ffdea7e2-46b0-4050-967e-4bf56b4e9004</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>但丁领导的边狱巴士公司文明</Teaser>
+    <Description>添加了1个新文明和领袖，以及一种文明特属的资源。</Description>
+    <Authors>l10ng</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <AssemblyName>LimbusCompanyDante</AssemblyName>
+    <RootNamespace>LimbusCompanyDante</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="config"><File>LimbusCompanyDante_Config.xml</File></UpdateDatabase><UpdateIcons id="FrontIcon"><File>LimbusCompanyDante_Icons.xml</File></UpdateIcons><UpdateText id="FrontText"><File>LimbusCompanyDante_Text_en.xml</File><File>LimbusCompanyDante_Text.xml</File></UpdateText><UpdateArt id="FrontArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="FrontColor"><File>LimbusCompanyDante_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Data"><File>LimbusCompanyDante_Leader.xml</File><File>LimbusCompanyDante_Units.xml</File><File priority="1">LimbusCompanyDante_Resource.xml</File><File priority="100">LimbusCompanyDante_Civilization.xml</File><File>LimbusCompanyDante_UnitAbilities.xml</File><File priority="100">LimbusCompanyDante_Improvement.xml</File></UpdateDatabase><UpdateText id="Text"><File>LimbusCompanyDante_Text_en.xml</File><File>LimbusCompanyDante_Text.xml</File></UpdateText><UpdateIcons id="Icons"><File>LimbusCompanyDante_Icons.xml</File></UpdateIcons><UpdateColors id="colors"><File>LimbusCompanyDante_Colors.xml</File></UpdateColors><UpdateArt id="arts"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="LimbusCompanyDante.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Resources.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LimbusCompanyDante_Civilization.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LimbusCompanyDante_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LimbusCompanyDante_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LimbusCompanyDante_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LimbusCompanyDante_Leader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LimbusCompanyDante_Resource.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LimbusCompanyDante_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LimbusCompanyDante_Text_en.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LimbusCompanyDante_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LimbusCompanyDante_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LimbusCompanyDante_Improvement.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\DanteDDS.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ArtDefs" />
+    <Folder Include="XLPs" />
+    <Folder Include="Textures" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

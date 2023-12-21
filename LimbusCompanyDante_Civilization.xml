@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Author: l -->
+<!-- DateCreated: 03/02/23 21:50:03 Thu -->
+<GameInfo>
+	<Types>
+		<Row Type="CIVILIZATION_LIMBUS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_CIVILIZATION_INFERNO" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_ECHO" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_MEPHISTO" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" Name="LOC_CIVILIZATION_LIMBUS_NAME" Description="LOC_CIVILIZATION_LIMBUS_DESCRIPTION"
+			 Adjective="LOC_CIVILIZATION_LIMBUS_ADJECTIVE" RandomCityNameDepth="10" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV"
+			 Ethnicity="ETHNICITY_EUROPE"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" LeaderType="LEADER_DANTE" CapitalName="LOC_CITY_NAME_B"/>
+	</CivilizationLeaders>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_INFERNO" Name="LOC_TRAIT_CIVILIZATION_INFERNO_NAME" Description="LOC_TRAIT_CIVILIZATION_INFERNO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ECHO" Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_ECHO_NAME" Description="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_ECHO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MEPHISTO" Name="LOC_TRAIT_CIVILIZATION_UNIT_MEPHISTO_NAME" Description="LOC_TRAIT_CIVILIZATION_UNIT_MEPHISTO_DESCRIPTION"/>
+	</Traits>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" TraitType="TRAIT_CIVILIZATION_INFERNO"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ECHO"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" TraitType="TRAIT_CIVILIZATION_UNIT_MEPHISTO"/>
+	</CivilizationTraits>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_C"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_D"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_E"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_F"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_G"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_H"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_I"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_J"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_K"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_L"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_M"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_N"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_O"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_P"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_Q"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_R"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_S"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CityName="LOC_CITY_NAME_T"/>
+	</CityNames>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" CitizenName="LOC_CITIZEN_CHINA_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_DANTE" ForegroundImage="NO_IMG_LIMBUSWUDI_FOREGROUND" BackgroundImage="IMG_LIMBUS_LOADING"
+			 PlayDawnOfManAudio="1" LeaderText="LOC_LOADING_INFO_LEADER_DANTE"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_DANTE" BackgroundImage="IMG_DANTE_BACKGROUND"/>
+	</DiplomacyInfo>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" ResourceType="RESOURCE_GOLDEN_BOUGH" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" ResourceType="RESOURCE_BANANAS" Tier="100"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" ResourceType="RESOURCE_CATTLE" Tier="100"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" ResourceType="RESOURCE_COPPER" Tier="100"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" ResourceType="RESOURCE_DEER" Tier="10"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" ResourceType="RESOURCE_RICE" Tier="100"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" ResourceType="RESOURCE_SHEEP" Tier="100"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" ResourceType="RESOURCE_STONE" Tier="100"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" ResourceType="RESOURCE_WHEAT" Tier="100"/>
+		<Row CivilizationType="CIVILIZATION_LIMBUS" ResourceType="RESOURCE_CITRUS" Tier="100"/>
+	</StartBiasResources>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MEPHISTO" Texture="ICON_UNIT_MEPHISTO_PORTRAIT256.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_ECHO" Texture="ICON_IMPROVEMENT_ECHO_PORTRAIT.dds"/>
+	</MomentIllustrations>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INFERNO</TraitType>
+			<ModifierId>MODIFIER_UNLOCK_GOLDEN_BOUGH</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_UNLOCK_GOLDEN_BOUGH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_FREE_RESOURCE_VISIBILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_UNLOCK_GOLDEN_BOUGH</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_GOLDEN_BOUGH</Value>
+		</Row>
+	</ModifierArguments>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INFERNO</TraitType>
+			<ModifierId>MODIFIER_INFERNO_GRANT_OUTIS</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_OUTIS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_OUTIS</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_OUTIS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_OUTIS</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_OUTIS</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- RYOSHU -->
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INFERNO</TraitType>
+			<ModifierId>MODIFIER_INFERNO_GRANT_RYOSHU</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_RYOSHU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<SubjectRequirementSetId>MODIFIER_INFERNO_GRANT_RYOSHU_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_RYOSHU</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_RYOSHU</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_RYOSHU</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_RYOSHU</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_RYOSHU_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_RYOSHU_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_RYOSHU</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_RYOSHU</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_RYOSHU</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_DRAMA_POETRY</Value>
+		</Row>
+	</RequirementArguments>
+
+	
+	 <TraitModifiers>
+        <Row>
+            <TraitType>TRAIT_CIVILIZATION_INFERNO</TraitType>
+            <ModifierId>MODIFIER_INFERNO_GRANT_HONGLU</ModifierId>
+        </Row>
+    </TraitModifiers>
+    <Modifiers>
+        <Row>
+            <ModifierId>MODIFIER_INFERNO_GRANT_HONGLU</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+            <SubjectRequirementSetId>MODIFIER_INFERNO_GRANT_HONGLU_REQUIREMENTS</SubjectRequirementSetId>
+        </Row>
+    </Modifiers>
+    <ModifierArguments>
+        <Row>
+            <ModifierId>MODIFIER_INFERNO_GRANT_HONGLU</ModifierId>
+            <Name>AllowUniqueOverride</Name>
+            <Value>0</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_INFERNO_GRANT_HONGLU</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_INFERNO_GRANT_HONGLU</ModifierId>
+            <Name>UnitType</Name>
+            <Value>UNIT_HONGLU</Value>
+        </Row>
+    </ModifierArguments>
+    <!-- =============== RequirementSets =============== -->
+    <RequirementSets>
+        <Row>
+            <RequirementSetId>MODIFIER_INFERNO_GRANT_HONGLU_REQUIREMENTS</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+    </RequirementSets>
+    <RequirementSetRequirements>
+        <Row>
+            <RequirementSetId>MODIFIER_INFERNO_GRANT_HONGLU_REQUIREMENTS</RequirementSetId>
+            <RequirementId>REQ_MODIFIER_INFERNO_GRANT_HONGLU</RequirementId>
+        </Row>
+    </RequirementSetRequirements>
+    <!-- +++++++++++++++ Requirements +++++++++++++++ -->
+    <Requirements>
+        <Row>
+            <RequirementId>REQ_MODIFIER_INFERNO_GRANT_HONGLU</RequirementId>
+            <RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+        </Row>
+    </Requirements>
+    <RequirementArguments>
+        <Row>
+            <RequirementId>REQ_MODIFIER_INFERNO_GRANT_HONGLU</RequirementId>
+            <Name>CivicType</Name>
+            <Value>CIVIC_FEUDALISM</Value>
+        </Row>
+    </RequirementArguments>
+	
+	
+ <TraitModifiers>
+        <Row>
+            <TraitType>TRAIT_CIVILIZATION_INFERNO</TraitType>
+            <ModifierId>MODIFIER_INFERNO_GRANT_DON</ModifierId>
+        </Row>
+    </TraitModifiers>
+    <Modifiers>
+        <Row>
+            <ModifierId>MODIFIER_INFERNO_GRANT_DON</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+            <SubjectRequirementSetId>MODIFIER_INFERNO_GRANT_DON_REQUIREMENTS</SubjectRequirementSetId>
+        </Row>
+    </Modifiers>
+    <ModifierArguments>
+        <Row>
+            <ModifierId>MODIFIER_INFERNO_GRANT_DON</ModifierId>
+            <Name>AllowUniqueOverride</Name>
+            <Value>0</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_INFERNO_GRANT_DON</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>MODIFIER_INFERNO_GRANT_DON</ModifierId>
+            <Name>UnitType</Name>
+            <Value>UNIT_DON</Value>
+        </Row>
+    </ModifierArguments>
+    <!-- =============== RequirementSets =============== -->
+    <RequirementSets>
+        <Row>
+            <RequirementSetId>MODIFIER_INFERNO_GRANT_DON_REQUIREMENTS</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+    </RequirementSets>
+    <RequirementSetRequirements>
+        <Row>
+            <RequirementSetId>MODIFIER_INFERNO_GRANT_DON_REQUIREMENTS</RequirementSetId>
+            <RequirementId>REQ_MODIFIER_INFERNO_GRANT_DON</RequirementId>
+        </Row>
+    </RequirementSetRequirements>
+    <!-- +++++++++++++++ Requirements +++++++++++++++ -->
+    <Requirements>
+        <Row>
+            <RequirementId>REQ_MODIFIER_INFERNO_GRANT_DON</RequirementId>
+            <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+        </Row>
+    </Requirements>
+    <RequirementArguments>
+        <Row>
+            <RequirementId>REQ_MODIFIER_INFERNO_GRANT_DON</RequirementId>
+            <Name>TechnologyType</Name>
+            <Value>TECH_STIRRUPS</Value>
+        </Row>
+    </RequirementArguments>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INFERNO</TraitType>
+			<ModifierId>MODIFIER_INFERNO_GRANT_FAUST</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_FAUST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<SubjectRequirementSetId>MODIFIER_INFERNO_GRANT_FAUST_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_FAUST</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_FAUST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_FAUST</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_FAUST</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_FAUST_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_FAUST_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_FAUST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_FAUST</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_FAUST</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_HUMANISM</Value>
+		</Row>
+	</RequirementArguments>
+
+	
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INFERNO</TraitType>
+			<ModifierId>MODIFIER_INFERNO_GRANT_HEATHCLIFF</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_HEATHCLIFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<SubjectRequirementSetId>MODIFIER_INFERNO_GRANT_HEATHCLIFF_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_HEATHCLIFF</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_HEATHCLIFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_HEATHCLIFF</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_HEATHCLIFF</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_HEATHCLIFF_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_HEATHCLIFF_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_HEATHCLIFF</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_HEATHCLIFF</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_HEATHCLIFF</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_MILITARY_SCIENCE</Value>
+		</Row>
+	</RequirementArguments>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INFERNO</TraitType>
+			<ModifierId>MODIFIER_INFERNO_GRANT_RODION</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_RODION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<SubjectRequirementSetId>MODIFIER_INFERNO_GRANT_RODION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_RODION</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_RODION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_RODION</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_RODION</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_RODION_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_RODION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_RODION</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_RODION</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_RODION</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_URBANIZATION</Value>
+		</Row>
+	</RequirementArguments>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INFERNO</TraitType>
+			<ModifierId>MODIFIER_INFERNO_GRANT_ISHMAEL</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_ISHMAEL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<SubjectRequirementSetId>MODIFIER_INFERNO_GRANT_ISHMAEL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_ISHMAEL</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_ISHMAEL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_ISHMAEL</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_ISHMAEL</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_ISHMAEL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_ISHMAEL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_ISHMAEL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_ISHMAEL</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_ISHMAEL</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_STEAM_POWER</Value>
+		</Row>
+	</RequirementArguments>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INFERNO</TraitType>
+			<ModifierId>MODIFIER_INFERNO_GRANT_GREGOR</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_GREGOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<SubjectRequirementSetId>MODIFIER_INFERNO_GRANT_GREGOR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_GREGOR</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_GREGOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_GREGOR</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_GREGOR</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_GREGOR_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_GREGOR_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_GREGOR</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_GREGOR</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_GREGOR</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_REPLACEABLE_PARTS</Value>
+		</Row>
+	</RequirementArguments>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INFERNO</TraitType>
+			<ModifierId>MODIFIER_INFERNO_GRANT_SINCLAIR</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_SINCLAIR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<SubjectRequirementSetId>MODIFIER_INFERNO_GRANT_SINCLAIR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_SINCLAIR</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_SINCLAIR</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_SINCLAIR</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SINCLAIR</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_SINCLAIR_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_SINCLAIR_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_SINCLAIR</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_SINCLAIR</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_SINCLAIR</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_FLIGHT</Value>
+		</Row>
+	</RequirementArguments>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INFERNO</TraitType>
+			<ModifierId>MODIFIER_INFERNO_GRANT_MEURSAULT</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_MEURSAULT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<SubjectRequirementSetId>MODIFIER_INFERNO_GRANT_MEURSAULT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_MEURSAULT</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_MEURSAULT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_MEURSAULT</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MEURSAULT</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_MEURSAULT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_MEURSAULT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_MEURSAULT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_MEURSAULT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_MEURSAULT</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_IDEOLOGY</Value>
+		</Row>
+	</RequirementArguments>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INFERNO</TraitType>
+			<ModifierId>MODIFIER_INFERNO_GRANT_YISANG</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_YISANG</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<SubjectRequirementSetId>MODIFIER_INFERNO_GRANT_YISANG_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_YISANG</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_YISANG</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_INFERNO_GRANT_YISANG</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_YISANG</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_YISANG_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_INFERNO_GRANT_YISANG_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_YISANG</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_YISANG</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_MODIFIER_INFERNO_GRANT_YISANG</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CULTURAL_HERITAGE</Value>
+		</Row>
+	</RequirementArguments>
+
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INFERNO</TraitType>
+			<ModifierId>MODIFIER_SINNER_BUILD</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_SINNER_BUILD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
+			<SubjectRequirementSetId>MODIFIER_SINNER_BUILD_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_SINNER_BUILD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MODIFIER_SINNER_BUILD_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MODIFIER_SINNER_BUILD_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQ_SINNER_BUILD</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQ_SINNER_BUILD</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQ_SINNER_BUILD</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_SINNER</Value>
+		</Row>
+	</RequirementArguments>
+</GameInfo>

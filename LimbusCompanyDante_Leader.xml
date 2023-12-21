@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Author: l -->
+<!-- DateCreated: 03/02/23 22:01:46 Thu -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_DANTE" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_DIVINE_COMEDY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_DANTE" Name="LOC_LEADER_DANTE_NAME" InheritFrom="LEADER_DEFAULT" Sex="Male" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_DANTE" Quote="LOC_LEADER_DANTE_QUOTE"  QuoteAudio="NOTHING_Play_CHIN_QS_MISC_PEP_TALK_E_3"/>
+	</LeaderQuotes>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_DIVINE_COMEDY" Name="LOC_TRAIT_LEADER_DIVINE_COMEDY_NAME"
+			 Description="LOC_TRAIT_LEADER_DIVINE_COMEDY_DESCRIPTION"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_DANTE" TraitType="TRAIT_LEADER_DIVINE_COMEDY"/>
+	</LeaderTraits>
+	<FavoredReligions>
+		<Row LeaderType="LEADER_DANTE" ReligionType="RELIGION_CATHOLICISM"/>
+	</FavoredReligions>
+</GameData>
